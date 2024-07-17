@@ -1,0 +1,8 @@
+button {
+  background-color: var(--white);
+  color: var(--primary);
+  border: 4px solid var(--primary);
+  padding-block: 0.2em;
+  padding-inline: 0.7em;
+  transition: transform 0.5s ease-in-out;
+}

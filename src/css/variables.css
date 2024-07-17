@@ -1,5 +1,7 @@
 :root {
-  --main-accent-color: #3F8DA8;
-  --secondary-accent-color: #92E0E5;
+  --primary: #3F8DA8;
+  --accent: #92E0E5;
+  --white: #FFFFFF;
+  --glow: var(--accent) 0 0 5px 2px;
 }
 

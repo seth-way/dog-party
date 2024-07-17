@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'variables';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'images';
+@import 'buttons';
+
+* {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+  font-weight: 500;
+}
 
 body {
-  background: url('../../dist/images/park.jpg') center/cover;
-  height: 100vh;
+  margin: 0;
+  background-color: var(--white);
+}
+
+body > * {
   width: 100%;
 }
 
-nav {
-  background-color: var(--secondary-accent-color);
-}
-
-.dog-icon {
-  width: 50px;
+a, button {
+  cursor: pointer;
 }
