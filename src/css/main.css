@@ -1,7 +1,8 @@
 main {
-  width: 100vw;
   display: flex;
   justify-content: space-around;
   margin-block: 40px;
+  padding-inline: 2.5%;
+  width: 95% !important;
   gap: 1em;
 }
