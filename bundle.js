@@ -629,13 +629,14 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `main {
-  width: 100vw;
   display: flex;
   justify-content: space-around;
   margin-block: 40px;
+  padding-inline: 2.5%;
+  width: 95% !important;
   gap: 1em;
 }
-`, "",{"version":3,"sources":["webpack://./src/css/main.css"],"names":[],"mappings":"AAAA;EACE,YAAY;EACZ,aAAa;EACb,6BAA6B;EAC7B,kBAAkB;EAClB,QAAQ;AACV","sourcesContent":["main {\n  width: 100vw;\n  display: flex;\n  justify-content: space-around;\n  margin-block: 40px;\n  gap: 1em;\n}\n"],"sourceRoot":""}]);
+`, "",{"version":3,"sources":["webpack://./src/css/main.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,6BAA6B;EAC7B,kBAAkB;EAClB,oBAAoB;EACpB,qBAAqB;EACrB,QAAQ;AACV","sourcesContent":["main {\n  display: flex;\n  justify-content: space-around;\n  margin-block: 40px;\n  padding-inline: 2.5%;\n  width: 95% !important;\n  gap: 1em;\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -925,7 +926,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 
 
-console.log('hi')
+console.log('woof');
+
 })();
 
 /******/ })()
